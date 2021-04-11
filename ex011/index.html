@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <p>essas podem ser vistas em varios dispositivos</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="image flexivel">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="none" autoplay controls>
+        <source src="midia/Sailing-DelicateSteve.mp3" type="audio/mpeg">
+        <source src="midia/Sailing-DelicateSteve.ogg" type="audio/ogg">
+        <source src="midia/Sailing-DelicateSteve.wav" type="audio/wav">
+        <p>seu navegador não consegue reproduzir o audio </p>
+    </audio>
+    <!-- MP3 WAV OGG -->
+    <p>voltar para o Resumão <a href="\index.html">AQUI</a></p>
+</body>
+</html>
