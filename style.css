@@ -1,20 +1,27 @@
+*{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body{
-    background-color:rgb(96, 155, 243);
+    background-color:rgb(135, 194, 250);
+}
+header{
+      background-color: rgb(142, 252, 252);
+      border-radius: 5px;
 }
 main{
-    background-color:rgb(96, 94, 231);
+    background-color:rgba(252, 252, 252, 0.719);
     border-radius: 5px;
-    padding:5px;
+    padding:10px;
     width: 750px;
     height: auto;
     margin: auto;
+    
 }
-div{
-    padding:10px;
-    background-color:rgb(245, 247, 244);
-}
+
 a:link {
-    color: green;
+    color: rgb(4, 41, 252);
     background-color: transparent;
     text-decoration: none;
   }
@@ -24,12 +31,12 @@ a:link {
     text-decoration: none;
   }
   a:hover {
-    color: red;
+    color: rgb(238, 44, 44);
     background-color: transparent;
     text-decoration: underline;
   }
   a:active {
-    color: rgb(0, 255, 64);
+    color: rgb(26, 124, 252);
     background-color: transparent;
     text-decoration: underline;
   }
@@ -43,5 +50,4 @@ h2{
 p{
     font-size: 1em;
     text-align: center;
-    text-align: justify;
 }
