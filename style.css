@@ -10,6 +10,14 @@ header{
       background-color: rgb(142, 252, 252);
       border-radius: 5px;
 }
+main {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #306266c9;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+}
 
 
 a:link {
