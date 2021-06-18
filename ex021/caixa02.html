@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: darkturquoise;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        header{
+            background-color: dimgray;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(82, 82, 82);
+            padding: 5px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.582);
+        }
+        nav > a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        nav > a:hover{
+            text-decoration: underline rgb(255, 255, 255);
+        }
+        main{
+            background-color: whitesmoke;
+            text-align: center;
+            margin: auto;
+            width: 600px;
+            border-radius: 10px;
+        }
+        main > section#noticias {
+            background-color: rgba(184, 184, 184, 0.459);
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.582);
+            margin: 0;
+        }
+        footer{
+            background-color: gray;
+            color: honeydew;
+            padding: 5px;
+            margin: 0;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>my site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">link</a>
+            <a href="#">aaa</a>
+            <a href="#">my site</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Drift</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Lorem</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptate quisquam omnis corporis soluta provident. Consequatur dolor qui iure harum voluptatibus accusantium commodi reprehenderit vero id, rem aliquid, quidem quod.
+                </p>
+                <aside>
+                    <p>Artigo de lorem jr</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Diogozura</p>
+    </footer>
+</body>
+</html>
