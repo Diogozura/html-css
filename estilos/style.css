@@ -5,16 +5,18 @@
 
 body{
     margin: 0;
-    background-color:rgb(135, 194, 250);
+    background-color:#87c2fa;
 }
 h1{ 
   color: white;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.534);
   text-align: center;
+  margin-top: 10px;
   font-size: 2em;
 }
 h2{
   font-size:1.5em;
+  text-align: center;
 }
 p{
   font-size: 1em;
@@ -22,7 +24,8 @@ p{
 }
 header{
   background-color: #465063;
-  padding: 20px;
+  margin: 0;
+  padding: 5px;
   text-align: center;
 }
 #container{
@@ -41,16 +44,30 @@ header{
 }
 #a1{
   border-style: solid;
-  border-color: rgba(240, 106, 106, 0.658);
+  border-color: #FA6811;
 }
 #a2{
   border-style: outset;
-  border-color: rgb(139, 0, 252);
+  border-color: #D9FA02;
+}
+#a3{
+  border-style: outset;
+  border-color: #A528FA;
 }
 .button{
-  background-color: #f55959; /* Green */
   border: none;
-  color: white;
+  background-color: rgb(135, 194, 250);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.buttonon{
+  background-color: #efffaa; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
   padding: 5px;
   border-radius: 5px;
   text-align: center;
@@ -58,15 +75,22 @@ header{
   display: inline-block;
 }
 .button:hover{
-  background-color: rgb(226, 226, 52);
+  background-color: rgb(255, 255, 100);
 }
 .button:active{
   background-color: chartreuse;
 }
+.diogozura{
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  height: 48px;
+}
 
 footer{
   background-color: #465063;
-  padding: 20px;
+  margin: 0;
+  padding: 5px;
   text-align: center;
 }
 
