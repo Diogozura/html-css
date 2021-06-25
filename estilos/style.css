@@ -19,7 +19,7 @@ h2{
   text-align: center;
 }
 p{
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: center;
 }
 header{
@@ -29,7 +29,7 @@ header{
   text-align: center;
 }
 #container{
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
@@ -48,7 +48,7 @@ header{
 }
 #a2{
   border-style: outset;
-  border-color: #D9FA02;
+  border-color: #efffaa;
 }
 #a3{
   border-style: outset;
@@ -89,9 +89,9 @@ header{
 
 footer{
   background-color: #465063;
-  margin: 0;
+  margin-top: 30px;
   padding: 5px;
-  text-align: center;
+  color: #FFFFFF; 
 }
 
 

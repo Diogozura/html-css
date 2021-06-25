@@ -1,14 +1,13 @@
 #container {
-    margin-top: 13.9%;
-    margin-bottom: 14.7%;
+   margin-bottom: 20px;
 }
 
 
 #a1:hover{
-    background-color: #D96F8D;
+    background-color: #ffffff7c;
     color: rgb(0, 0, 0);
 }
 #a2:hover{
-    background-color: #D9CE43;
-    color: cornsilk;
+    background-color: #ffffff7c;
+    color: rgb(0, 0, 0);
 }
