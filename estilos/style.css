@@ -19,13 +19,13 @@ h2{
   text-align: center;
 }
 p{
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
 }
 header{
   background-color: #465063;
   margin: 0;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
 }
 #container{
@@ -58,7 +58,7 @@ header{
   border: none;
   background-color: rgb(135, 194, 250);
   color: rgb(0, 0, 0);
-  padding: 5px;
+  padding: 3px;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
@@ -68,7 +68,7 @@ header{
   background-color: #efffaa; /* Green */
   border: none;
   color: rgb(0, 0, 0);
-  padding: 5px;
+  padding: 3px;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
