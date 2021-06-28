@@ -39,21 +39,24 @@ header{
   background-color: azure;
   width: 300px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.212) 10px 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 3px;
   padding: 10px;
   margin: 10px;
 }
-#a1{
+.a1{
   border-style: solid;
-  border-color: #FA6811;
+  border-color: #18588F;
+  border-width: 5px;
 }
-#a2{
+.a2{
   border-style: outset;
-  border-color: #efffaa;
+  border-color: #d0db3a;
+  border-width: 5px;
 }
-#a3{
+.a3{
   border-style: outset;
-  border-color: #A528FA;
+  border-color: #8f1818;
+  border-width: 5px;
 }
 .button{
   border: none;
