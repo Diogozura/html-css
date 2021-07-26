@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @font-face {
     font-family: 'Android';
-    src: url('/fontes/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -30,34 +30,100 @@ body{
     background-color: rgb(199, 255, 236);
     font-family: var(--fonte-padrao);
 }
+
+
 header{
-    background-color: var(--cor1); 
+    min-height: 100px;
+    text-align: center;
+    padding-top: 2 0px;
+   
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
 }
 header > h1{
     font-family: var(--font-destaque);
+    margin-bottom: 10px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.37);
 }
 header > p {
-    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
 }
 nav{
     background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.349);
+    margin: auto;
+    text-align: center;
 }
 nav > a{
-    color:var(--cor0)
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+nav a:hover{
+    background-color: var(--cor1);
+    border-radius: 5px;
+    color: var(--cor4);
 }
 main{
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     padding: 20px;
-    border-radius: 10px;
-
 
     max-width: 800px;
-    min-width: 400px;
+    min-width: 300px;
     margin: auto;
-
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
-img{
+main h1{
+    color: var(--cor4);
+    font-family: var(--font-android);
+}
+main h2{
+    font-family: var(--font-android);
+    color: var(--cor3);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), #f5f5f5);
+    text-indent: 10px;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+} 
+
+main strong {
+    color: var(--cor3);
+    font-weight: bold;
+}
+main a {
+    text-decoration: none;
+    color: var(--cor4);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+main a:hover{
+    text-decoration: underline;
+}
+
+main  img{
     width: 100%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
 }
 
 footer{
