@@ -2,10 +2,16 @@
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 body{
     margin: 0;
+    padding: 0;
     background-image:  url(../img/tile_background\ \(3\).png);
+}
+/* cabeçalho */
+header{
+  background-color: #465063;
+  padding: 10px;
+  text-align: center;
 }
 h1{ 
   color: white;
@@ -14,6 +20,33 @@ h1{
   margin-top: 10px;
   font-size: 2em;
 }
+.diogozura{
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  height: 48px;
+}
+nav a.buttonon{
+  background-color: #efffaa; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button{
+  border: none;
+  background-color: rgb(135, 194, 250);
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 h2{
   font-size:1.5em;
   text-align: center;
@@ -22,12 +55,7 @@ p{
   font-size: 1em;
   text-align: center;
 }
-header{
-  background-color: #465063;
-  margin: 0;
-  padding: 10px;
-  text-align: center;
-}
+
 
 #container{
   margin-top: 30px;
@@ -35,7 +63,7 @@ header{
   flex-wrap:wrap;
   justify-content: center;
 }
-#container > div{
+article{
   background-color: azure;
   width: 300px;
   border-radius: 10px;
@@ -58,44 +86,40 @@ header{
   border-color: #8f1818;
   border-width: 5px;
 }
-.button{
-  border: none;
-  background-color: rgb(135, 194, 250);
-  color: rgb(0, 0, 0);
-  padding: 3px;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-.buttonon{
-  background-color: #efffaa; /* Green */
-  border: none;
-  color: rgb(0, 0, 0);
-  padding: 3px;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
 .button:hover{
   background-color: rgb(255, 255, 100);
 }
 .button:active{
   background-color: chartreuse;
 }
-.diogozura{
-  position: absolute;
-  left: 10px;
-  top: 20px;
-  height: 48px;
+section.videocurso{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 650px;
 }
+
+div.video{
+  margin-bottom: 30px;
+  margin: 0px, -40px;
+  padding: 20px;
+  padding-bottom: 57%;
+
+  position: relative;
+}
+div.video > iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
 
 
 footer{
   background-color: #465063;
-  margin-top: 30px;
-  padding: 5px;
+  padding: 1px;
+  margin: 0px;
   color: #FFFFFF; 
 }
 
